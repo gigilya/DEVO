@@ -23,8 +23,6 @@ body{
     width: 100%;
     border-radius: 0px 0px 8px 8px;
     background: #1B1B1B;
-    
-
 }
 
 .buttonmid{
@@ -39,6 +37,7 @@ body{
     background: linear-gradient(30deg,#9895BD ,#89FE2C,#9895BD);
     animation: gradient 4s ease infinite;
     background-size: 200%;
+    cursor: pointer;
 }
 
 @keyframes gradient{
@@ -68,6 +67,7 @@ body{
     position: relative;
     width: 100pt;
     height: 40pt;
+    cursor: pointer;
 }
 
 p{
@@ -77,13 +77,13 @@ p{
 
 .imgglav{
     width: 30pt;
+    cursor: pointer;
 }
 
 .title{
     color:white;
     font-size: 44pt;
     margin: 0pt 0pt 10pt 0pt;
- 
 }
 
 .Text{
@@ -120,13 +120,13 @@ p{
   margin: auto;
   justify-content:space-around;
   padding: 0pt 0pt 0pt 0pt;
-
 }
 
 .knops{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 
 .bottom{
@@ -136,7 +136,6 @@ p{
     height: 60px;
     border: 1px solid #1B1B1B;
     border-radius: 6px;
-    
 }
 
 .imglinks{
@@ -149,5 +148,4 @@ p{
     margin: 0 auto;
     justify-content:left;
     padding: 40pt 0pt 0pt 0pt;
-
 }
