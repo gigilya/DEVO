@@ -73,6 +73,7 @@ body{
 p{
     color: #9C9C9C;
     font-size: 16pt;
+    cursor: pointer;
 }
 
 .imgglav{
@@ -84,11 +85,12 @@ p{
     color:white;
     font-size: 44pt;
     margin: 0pt 0pt 10pt 0pt;
+   
 }
 
 .Text{
     font-size: 20pt;
-
+    cursor:auto;
 }
 .Textbutton{
     color:white;
@@ -126,7 +128,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    cursor: pointer;
+    
 }
 
 .bottom{
@@ -136,6 +138,7 @@ p{
     height: 60px;
     border: 1px solid #1B1B1B;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .imglinks{
