@@ -9,7 +9,7 @@ body{
 
 .mainwin{
     display: flex;
-    align-items: top;
+    align-items: start;
     justify-content: center;
     width: 1200pt;
     height: 650pt;
