@@ -1,4 +1,10 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.winfull{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,32 +13,87 @@ body{
     background: #080808;
 }
 
-.mainwin{
+.portfolio{
     display: flex;
     align-items: start;
     justify-content: center;
     width: 1200pt;
-    height: 650pt;
-    border-radius: 20px;
+    height: 700pt;
 }
 
-.startheader{
+.portfolioheader{
     flex-direction:column;
     display: block;
     height: 60pt;
-    width: 100%;
-    border-radius: 0px 0px 8px 8px;
+    width: 1500pt;
+    border-radius: 0pt 0pt 8pt 8pt;
     background: #1B1B1B;
+}
+
+.linksheader{    
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content:space-around;
+    padding: 5pt 50pt 5pt 50pt;
+}
+
+.linksimgheader{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content:space-between;
+    width: 100pt;
+    height: 40pt;
+    cursor: pointer;
+}
+
+p{
+    color: #9C9C9C;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.imgglav{
+    width: 30pt;
+    cursor: pointer;
+}
+
+.portfoliobody{
+    display: flex;
+    justify-content:space-between;
+    width: 1000pt;
+    margin: 0 auto;
+    padding: 50pt 0pt 0pt 0pt;
+}
+
+.portfoliotext{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 500pt;
+}
+
+.titleonblack{
+    color:white;
+    font-size: 44pt;
+    margin: 0pt 0pt 30pt 0pt;
+}
+
+.Text{
+    font-size: 20pt;
+    cursor:auto;
+    margin: 0pt 0pt 30pt 0pt;
 }
 
 .buttonmid{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 307.89px;
-    height: 63px;
-    border-radius: 4px;
-    border: 1px solid #62BA1B;
+    width: 307.89pt;
+    height: 63pt;
+    border-radius: 4pt;
+    border: 1pt solid #62BA1B;
     box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
     background: linear-gradient(30deg,#9895BD ,#89FE2C,#9895BD);
     animation: gradient 4s ease infinite;
@@ -52,63 +113,8 @@ body{
     }
 }
 
-.linksheader{    
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content:space-around;
-    padding: 5pt 50pt 5pt 50pt;
-   
-}
-
-.linksimgheader{
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 100pt;
-    height: 40pt;
-    cursor: pointer;
-}
-
-p{
-    color: #9C9C9C;
-    font-size: 16pt;
-    cursor: pointer;
-}
-
-.imgglav{
-    width: 30pt;
-    cursor: pointer;
-}
-
-.title{
-    color:white;
-    font-size: 44pt;
-    margin: 0pt 0pt 10pt 0pt;
-}
-
-.Text{
-    font-size: 20pt;
-    cursor:auto;
-}
 .Textbutton{
     color:white;
-}
-
-
-.midheader{
-    display: flex;
-    justify-content:space-around;
-    width: 1100pt;
-    margin: 0 auto;
-    padding: 50pt 0pt 0pt 0pt;
-}
-
-.midtext{
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
-    width: 600px;
 }
 
 .avatar{
@@ -116,38 +122,65 @@ p{
 }
 
 .bottomlinks{
-  display: flex;
-  width: 1060pt;
-  margin: auto;
-  justify-content:space-around;
-  padding: 0pt 0pt 0pt 0pt;
+    display: flex;
+    width: 1000pt;
+    margin: auto;
+    justify-content:space-between;
+    padding: 0pt 0pt 0pt 0pt;
 }
 
 .knops{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .bottom{
     display: flex;
     justify-content: center;
-    width: 160px;
-    height: 60px;
+    align-items: center;
+    width: 160pt;
+    height: 60pt;
     border: 1px solid #1B1B1B;
-    border-radius: 6px;
+    border-radius: 6pt;
     cursor: pointer;
 }
 
 .imglinks{
-    width: 100pt;
+    width: 130pt;
+    height: 50pt;
 }
 
 .textknops{
     display: flex;
-    width: 970pt;
+    width: 1000pt;
     margin: 0 auto;
     justify-content:left;
     padding: 40pt 0pt 0pt 0pt;
+}
+
+.workedtext{
+    margin: 0pt 0pt 30pt 0pt;
+}
+
+.winfull2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1200pt;
+    height: 700pt;
+    background-color: white;
+}
+
+.casestudieswin{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1000pt;
+    height: 1200pt;
+}
+
+.casestudies{
+    
+    
 }
