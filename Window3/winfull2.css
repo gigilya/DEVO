@@ -1,0 +1,94 @@
+.winfull2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: white;
+}
+
+.casestudieswin{
+    display: flex;
+    width: 1000pt;
+    height: 1000pt;
+    padding-top: 60pt ;
+    flex-direction:column;
+}
+
+.casestudies{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.titleblock1{
+    margin-bottom: 10pt;
+}
+
+.Textstudies {
+    text-align: center;
+    width: 450pt;
+    margin-top:10pt;  
+    font-size: 14pt;
+}
+
+.textblock1 {
+    font-size: 14pt;
+}
+
+.block1{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-top:70pt;
+    align-items:center;
+}
+
+.textblock1{
+    width: 370pt;
+   
+}
+
+.knopsblock1{
+    padding-top: 40pt;
+}
+
+.styleknopsblock1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 189.89pt;
+    height: 38pt;
+    color:white;
+    background: #FFA217;
+    box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);
+    border: none;
+    border-radius: 6pt;
+    
+}
+
+.statusblock1{
+    width: 72pt;
+    height: 24pt;
+    left: 0pt;
+    top: 27pt;
+    margin-bottom: 10pt;
+    background: #FFF6E9;
+    border-radius: 60pt;
+}
+
+.pstatusblock1{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12pt;
+    line-height: 24pt;
+    letter-spacing: 0.01em;
+    color: #FFA217;
+}
+
+.imgblock{
+    width: 470pt;
+    border-radius: 6pt;
+}
