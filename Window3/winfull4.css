@@ -1,0 +1,48 @@
+.wifull4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction:column;
+    margin-top: 50pt;
+}
+
+.wiwndowresetwork{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.resetwork{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50pt ;
+    
+}
+
+.textresetwork{
+    width: 600pt;
+    font-size: 24pt;
+    text-align:center;
+    padding-top:20pt ;
+}
+
+.imgcenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.imgworkour{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.photowork{
+    width: 400pt;
+}
